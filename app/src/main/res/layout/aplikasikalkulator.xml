@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteX="77dp"
+    tools:layout_editor_absoluteY="26dp">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="19dp"
+        android:layout_height="19dp"
+        android:text="0"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:text="/"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:text="X"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:text="-"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Masukkan angka kedua"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Masukkan Dua Angka"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="62dp"
+        android:layout_height="49dp"
+        android:text="+"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="248dp"
+        android:layout_height="47dp"
+        android:text="Bersihkan"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
